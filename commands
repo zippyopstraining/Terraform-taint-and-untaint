@@ -1,0 +1,5 @@
+terraform taint resource.id  # terraform taint aws_instance.web
+terraform state list
+terraform plan
+terraform untaint resource.id # terraform untaint aws_instance.web
+terraform plan
